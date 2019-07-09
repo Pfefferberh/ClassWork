@@ -114,9 +114,8 @@ int main() {
 			 p = arr[i_revers][t];
 			 arr[i_revers][t] = arr[tmp][t];
 			 arr[tmp][t] = p;
-		
-			 tmp--;
 		 }
+			 tmp--;
 	  }
 
 	cout << "----------------------After-------------------->" << endl;
