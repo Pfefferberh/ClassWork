@@ -1,0 +1,4 @@
+﻿  09.07.19.cpp
+c:\users\zaluzhny\source\repos\project3\project3\09.07.19.cpp(55): warning C4305: 'initializing': truncation from 'int' to 'char'
+c:\users\zaluzhny\source\repos\project3\project3\09.07.19.cpp(55): warning C4309: 'initializing': truncation of constant value
+  Project3.vcxproj -> C:\Users\zaluzhny\source\repos\Project3\Debug\Project3.exe
