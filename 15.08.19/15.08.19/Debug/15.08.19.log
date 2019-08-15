@@ -1,0 +1,6 @@
+﻿  Source.cpp
+d:\class work\classwork\15.08.19\15.08.19\source.cpp(42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\class work\classwork\15.08.19\15.08.19\source.cpp(45): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\class work\classwork\15.08.19\15.08.19\source.cpp(48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\class work\classwork\15.08.19\15.08.19\source.cpp(51): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  15.08.19.vcxproj -> D:\class work\ClassWork\15.08.19\Debug\15.08.19.exe
