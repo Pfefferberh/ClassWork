@@ -17,7 +17,7 @@ using namespace std;
 void Create(int**arr, int &row, int &col);
 void FullArray(int**arr, int &row, int &col);
 void Print(int**arr, int &row, int &col);
-void Add(int**arr, int &row, int &col);
+void Add(int**&arr, int &row, int &col);
 void clean(int**arr,int&row);
 
 int main() {
@@ -32,14 +32,11 @@ int main() {
 	Create(arr, row, col);
 	FullArray(arr, row, col);
 	Print(arr, row, col);
+	cout << "=============================="<<endl;
 	Add(arr, row, col);
 	Print(arr, row, col);
 	
-	for (int i = 0; i < row; i++) {
-			delete[] arr[i];
-	}
-
-	delete[] arr;
+	clean(arr,row);
 	arr = nullptr;
 
 	system("pause");
@@ -67,7 +64,7 @@ void Print(int**arr, int &row, int &col) {
 		cout << endl;
 	}
 }
-void Add(int**arr, int &row, int &col) {
+void Add(int**&arr, int &row, int &col) {
 	int newSize = row + 1;
 	int **arrMEMB = new int *[newSize];
 	Create(arrMEMB, newSize, col);
@@ -82,12 +79,12 @@ void Add(int**arr, int &row, int &col) {
 		}
 	}
 	
-	cout << &arr <<endl<< &arrMEMB << endl;
+	
 	clean(arr, row);
 	row++;
 	arr = arrMEMB;
-	cout << &arr <<endl<< &arrMEMB << endl;
-	system("pause");
+	
+
 }
 void clean(int**arr,int&row) {
 	for (int i = 0; i < row; i++) {

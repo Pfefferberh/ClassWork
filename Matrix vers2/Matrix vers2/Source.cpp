@@ -92,37 +92,37 @@
 //	return 0;
 //}
 
-//////
-//////
-//////
-//////#include <iostream>
-//////using namespace std;
-//////
-//////int main() {
-//////	char text;
-//////	int digit = 0;
-//////	int size =0;
-//////	char *arrtext = new char[size];
-//////
-//////	bool exit = true;
-//////	for (int i = 0; i<5; i++) {
-//////		
-//////			size++; 
-//////			cin >> arrtext[i];
-//////		
-//////			////arr[i] = int(text);
-//////			//cout << " arr= " << arr[i] << endl;
-//////			//cout << " &arr= " << &arr[i] << endl;
-//////		
-//////			
-//////		
-//////	}
-//////	for (int i = 0; i < size; i++) {
-//////		cout << i + 1 << ". [" << arrtext[i] << "] " << endl;
-//////	}
-//////	
-//////	delete[] arrtext;
-//////	arrtext = nullptr;
-//////	system("pause");
-//////	return 0;
-//////}
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	char text;
+	int digit = 0;
+	int size = 0;
+	int *arrtext = new int[size];
+
+	bool exit = true;
+	for (int i = 0; i < 5; i++) {
+
+		size++;
+		cin >> arrtext[i];
+
+		////arr[i] = int(text);
+		//cout << " arr= " << arr[i] << endl;
+		//cout << " &arr= " << &arr[i] << endl;
+
+
+
+	}
+	for (int i = 0; i < size; i++) {
+		cout << i + 1 << ". [" << arrtext[i] << "] " << endl;
+	}
+
+	delete[] arrtext;
+	arrtext = nullptr;
+	system("pause");
+	return 0;
+}
