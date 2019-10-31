@@ -1,0 +1,6 @@
+﻿  Source.cpp
+d:\class work\classwork\srtucture day 2\srtucture day 2\source.cpp(93): warning C4129: 's': unrecognized character escape sequence
+d:\class work\classwork\srtucture day 2\srtucture day 2\source.cpp(93): warning C4129: 'd': unrecognized character escape sequence
+d:\class work\classwork\srtucture day 2\srtucture day 2\source.cpp(93): warning C4129: 'm': unrecognized character escape sequence
+d:\class work\classwork\srtucture day 2\srtucture day 2\source.cpp(93): warning C4129: 'y': unrecognized character escape sequence
+LINK : fatal error LNK1561: entry point must be defined

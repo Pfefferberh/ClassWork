@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\class work\classwork\rememb\rememb\source.cpp(97): warning C4018: '<': signed/unsigned mismatch
+d:\class work\classwork\rememb\rememb\source.cpp(137): warning C4018: '<': signed/unsigned mismatch
+  rememb.vcxproj -> D:\class work\ClassWork\rememb\Debug\rememb.exe
